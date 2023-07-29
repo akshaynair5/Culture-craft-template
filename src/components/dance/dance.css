@@ -1,0 +1,17 @@
+.dance{
+    height: 50vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 35vw;
+    margin-left: 5vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 15px;
+}
+.dance p{
+    color: aliceblue;
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}

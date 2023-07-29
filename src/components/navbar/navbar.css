@@ -1,0 +1,22 @@
+.navbar{
+    position: fixed;
+    top:1%;
+    border-radius: 10px;
+    background-color: #C85300;
+    display: flex;
+    height: 15vh;
+    width: 95vw;
+    left: 2.5vw;
+    z-index: 3;
+}
+.navbar .btn{
+    width: 22.5%;
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+.navbar .btn img{
+    width: 15%;
+    margin-left: 42.5%;
+    height: 45%;
+    margin-top: 10%;
+}

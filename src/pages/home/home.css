@@ -1,0 +1,37 @@
+.home{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.components{
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    top:30vh;
+    width: 100vw;
+    height: 67vh;
+    display: flex;
+}
+
+.components::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .components::-webkit-scrollbar-track {
+    background:black;        /* color of the tracking area */
+  }
+  
+  .components::-webkit-scrollbar-thumb {
+    background-color: orange;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
+.heading{
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    top:-12vh;
+    z-index: 2;
+    font-size: 8vh;
+}
